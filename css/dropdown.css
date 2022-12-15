@@ -1,0 +1,98 @@
+/*button Swish*/
+.dropdownSwish  {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownSwish img{
+    width: 90px;
+    height: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.dropdownSwish p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#qrSwish{
+    width: 170px;
+    height: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-color);
+    min-width: 200px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 15px;
+    right: -12%;
+
+
+}
+
+.dropdown-content h2 {
+    text-align: center;
+    font-style: oblique;
+}
+
+
+/*buttons main/
+
+
+/*buttons Medlem.html*/
+.dropdownStyrelsen {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    padding: 2em;
+    margin: 1em;
+}
+
+.dropdownContact {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+    padding: 2em;
+    margin: 1em;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: relative;
+    background-color: var(--primary-color);
+    min-width: 280px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 15px;
+    padding: 1em;
+    margin-left: 0.8em;
+}
+.dropdown-content2 button {
+    margin-left: 7em;
+}
+
+.show {
+    display: block;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .dropdown-content2  {
+
+        min-width: 300px;
+    }
+}
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
+    .dropdown-content2  {
+        padding: 1em;
+        margin-left: 2em;
+        min-width: 350px;
+    }
+}

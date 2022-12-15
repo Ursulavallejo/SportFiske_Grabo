@@ -1,0 +1,76 @@
+.card3 {
+    font-family: Montserrat-Bold, serif;
+    font-size: 12px;
+    width: 80%;
+    background-color: var(--primary-color);
+    padding: 1em;
+    margin: 2em 1em 1em 2em;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.card3 input {
+    padding-left: 1.5em;
+    text-align: center;
+    display: block;
+    font-family: Montserrat-Bold, serif;
+    background-color: var(--background-color);
+    width: 100%;
+}
+input[type="submit"] {
+    width: auto;
+}
+.card3 textarea {
+    width: 100%;
+    display: block;
+}
+.card3 label {
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.buttonInfoGrabo {
+    align-items: initial;
+    margin: 0;
+}
+
+.buttonInfoGrabo button {
+    height: 100%;
+    width: 90%;
+    margin: 0.5em 0;
+}
+
+.buttonsMedlemMain {
+    margin: 0;
+    position: relative;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+}
+
+.buttonInfoGrabo {
+    align-items: center;
+}
+
+.buttonInfoGrabo button {
+    width: 100%;
+}
+
+/* laptop/Desktop */
+@media screen and (min-width: 992px) {
+    .buttonInfoGrabo button {
+        width: 22%;
+        margin: 0.5em 1em;
+
+    }
+    .card3 {
+
+        display: inline-block;
+        max-width: 70%;
+    }
+}
+
+
+
+
