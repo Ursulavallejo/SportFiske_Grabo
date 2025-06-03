@@ -1,6 +1,6 @@
 ### Januari 2022
 
-## Project realized by Ursula Vallejo Janne for the Course Gränssnittsdesign.
+
 
 **Project Summary**
 
