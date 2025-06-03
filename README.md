@@ -8,7 +8,11 @@ This project involved redesigning the existing WordPress website for Gråbo Spor
 
 First, we created low-fidelity wireframes for mobile, tablet, and desktop to establish a consistent layout hierarchy: a prominent Hero section with logo and quick-access buttons (buy fishing permit, Swish donations), streamlined menu grouping (Home, News, About Fishing, Rules, Member), and a clear footer with emergency contact and club info. Next, a high-fidelity prototype was developed in Figma, refining typography (Oswald, Montserrat, Source Sans Pro), color palette (orange, gray, black, white), and iconography to align with the club’s existing branding. Throughout, we considered responsive behavior, accessibility for users with functional needs, and scenarios for each persona (e.g., international tourist seeking regulations and contact details). Finally, documentation was prepared to explain decisions around personas, fonts, colors, wireframes, and implementation challenges—such as responsive form fields and active menu states—and to evaluate potential improvements for future iterations.
 
+
+https://github.com/user-attachments/assets/a28f4016-23b5-45b2-9fa1-8097ec03fa65
+
 ### [Demo Project-Netlify ](https://grbo-sportfiske.netlify.app/)
+
 
 ### 🛠️ Technologies Used
 
